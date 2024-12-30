@@ -1,0 +1,47 @@
+@import "../../assets/colors/colors";
+
+.span {
+  color: $secondary;
+}
+
+.title {
+  font-size: 54px;
+  line-height: 60px;
+  text-align: start;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 50px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.text {
+  color: $darkText;
+  text-align: justify;
+}
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.imgContainer p {
+  color: $darkText;
+}
+.imgWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  width: 160px;
+  padding: 0 10px;
+}

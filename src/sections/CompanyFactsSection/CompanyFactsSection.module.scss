@@ -1,0 +1,62 @@
+@import "../../assets/colors/colors";
+
+.container {
+  padding: 80px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 0 10px;
+  gap: 20px;
+  width: 30%;
+}
+
+.title {
+  text-transform: uppercase;
+  color: $secondary;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e5f4fd;
+  font-size: 16px;
+}
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoCardsContainer {
+  display: flex;
+  gap: 80px;
+}
+
+.count {
+  font-size: 41px;
+  font-weight: 600;
+}
+
+.info {
+  color: $darkText;
+}
+
+.teamContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}

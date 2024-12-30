@@ -1,0 +1,33 @@
+@import "../../assets/colors/colors";
+
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  gap: 20px;
+}
+
+.photo {
+  width: 330px;
+  height: 220px;
+  object-fit: cover;
+}
+.button {
+  cursor: pointer;
+  color: $secondary;
+  background-color: transparent;
+  font-size: 17px;
+  border: none;
+}
+
+.title {
+  font-size: 23px;
+  color: $darkText;
+}
+
+.info {
+  color: $text;
+  text-align: center;
+}

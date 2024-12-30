@@ -1,0 +1,28 @@
+@import "../../assets/colors/colors";
+
+.container {
+  display: flex;
+  background-color: $white;
+  padding-top: 50px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 0 10px;
+  gap: 20px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: $secondary;
+}
+
+.text {
+  font-size: 42px;
+}
+
+.info {
+  color: $darkText;
+}

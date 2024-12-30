@@ -1,0 +1,39 @@
+@import "../../assets/colors/colors";
+.card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 530px;
+  box-shadow: 0px 5px 35px 0px #1e222812;
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e5f4fd;
+}
+
+.count {
+  color: $secondary;
+  font-size: 22px;
+}
+
+.title {
+  font-size: 20px;
+  color: $primary;
+}
+
+.text {
+  font-size: 17px;
+  color: $darkText;
+}
+
+.textContainer {
+  text-align: start;
+}

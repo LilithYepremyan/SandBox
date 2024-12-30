@@ -1,0 +1,35 @@
+@import "../../assets/colors/colors";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 35px 0px #1e222812;
+  padding: 30px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.position {
+  text-transform: uppercase;
+  color: #aab0bc;
+}
+
+.info {
+  color: $darkText;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+}

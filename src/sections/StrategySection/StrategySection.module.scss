@@ -1,0 +1,26 @@
+@import "../../assets/colors/colors";
+
+.container {
+  display: flex;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.textContainer {
+  padding: 0 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: start;
+}
+
+.title {
+  text-transform: uppercase;
+  color: $secondary;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
