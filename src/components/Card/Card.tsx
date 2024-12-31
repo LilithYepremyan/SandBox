@@ -1,6 +1,6 @@
 import fbLogo from "../../assets/icons/FbFull.svg";
 import twitterLogo from "../../assets/icons/TwitterFull.svg";
-import browserLogo from "../../assets/icons/BrowserFull.svg";
+import browserLogo from "../../assets/icons/browserFull.svg";
 import styles from "./Card.module.scss";
 
 const DEFAULT_AVATAR =
