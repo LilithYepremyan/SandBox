@@ -1,4 +1,4 @@
-@import "../../assets/colors/colors";
+@use "../../assets/colors/colors.scss" as colors;
 
 .container {
   display: flex;
@@ -16,5 +16,5 @@
 
 .title {
   text-transform: uppercase;
-  color: $secondary;
+  color: colors.$secondary;
 }

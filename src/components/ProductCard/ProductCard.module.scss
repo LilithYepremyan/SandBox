@@ -1,4 +1,5 @@
-@import "../../assets/colors/colors";
+@use "../../assets/colors/colors.scss" as colors;
+
 .card {
   display: flex;
   gap: 15px;
@@ -20,18 +21,18 @@
 }
 
 .count {
-  color: $secondary;
+  color: colors.$secondary;
   font-size: 22px;
 }
 
 .title {
   font-size: 20px;
-  color: $primary;
+  color: colors.$primary;
 }
 
 .text {
   font-size: 17px;
-  color: $darkText;
+  color: colors.$darkText;
 }
 
 .textContainer {

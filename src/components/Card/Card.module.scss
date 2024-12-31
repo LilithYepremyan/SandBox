@@ -1,5 +1,4 @@
-@import "../../assets/colors/colors";
-
+@use "../../assets/colors/colors.scss" as colors;
 .card {
   display: flex;
   flex-direction: column;
@@ -24,7 +23,7 @@
 }
 
 .info {
-  color: $darkText;
+  color: colors.$darkText;
 }
 
 .socials {

@@ -1,4 +1,4 @@
-@import "../../assets/colors/colors";
+@use "../../assets/colors/colors.scss" as colors;
 
 .navbar {
   display: flex;
@@ -28,5 +28,5 @@
 }
 
 ul li:hover {
-  color: $secondary;
+  color: colors.$secondary;
 }

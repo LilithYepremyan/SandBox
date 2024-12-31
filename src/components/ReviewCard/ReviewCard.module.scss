@@ -1,4 +1,4 @@
-@import "../../assets/colors/colors";
+@use "../../assets/colors/colors.scss" as colors;
 
 .reviewCard {
   display: flex;
@@ -26,7 +26,7 @@
 
 .reviewerInfo,
 .reviewText {
-  color: $darkText;
+  color: colors.$darkText;
   font-size: 18px;
   text-align: justify;
 }

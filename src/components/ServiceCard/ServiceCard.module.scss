@@ -1,4 +1,4 @@
-@import "../../assets/colors/colors";
+@use "../../assets/colors/colors.scss" as colors;
 
 .serviceCard {
   display: flex;
@@ -16,7 +16,7 @@
 }
 .button {
   cursor: pointer;
-  color: $secondary;
+  color: colors.$secondary;
   background-color: transparent;
   font-size: 17px;
   border: none;
@@ -24,10 +24,10 @@
 
 .title {
   font-size: 23px;
-  color: $darkText;
+  color: colors.$darkText;
 }
 
 .info {
-  color: $text;
+  color: colors.$text;
   text-align: center;
 }

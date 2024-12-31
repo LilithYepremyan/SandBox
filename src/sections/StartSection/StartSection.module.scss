@@ -1,7 +1,7 @@
-@import "../../assets/colors/colors";
+@use "../../assets/colors/colors.scss" as colors;
 
 .span {
-  color: $secondary;
+  color: colors.$secondary;
 }
 
 .title {
@@ -24,7 +24,7 @@
 }
 
 .text {
-  color: $darkText;
+  color: colors.$darkText;
   text-align: justify;
 }
 .imgContainer {
@@ -35,7 +35,7 @@
 }
 
 .imgContainer p {
-  color: $darkText;
+  color: colors.$darkText;
 }
 .imgWrapper {
   display: flex;

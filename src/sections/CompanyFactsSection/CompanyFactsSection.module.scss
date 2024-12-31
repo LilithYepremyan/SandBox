@@ -1,4 +1,4 @@
-@import "../../assets/colors/colors";
+@use "../../assets/colors/colors.scss" as colors;
 
 .container {
   padding: 80px 0;
@@ -20,7 +20,7 @@
 
 .title {
   text-transform: uppercase;
-  color: $secondary;
+  color: colors.$secondary;
 }
 
 .icon {
@@ -52,7 +52,7 @@
 }
 
 .info {
-  color: $darkText;
+  color: colors.$darkText;
 }
 
 .teamContainer {
