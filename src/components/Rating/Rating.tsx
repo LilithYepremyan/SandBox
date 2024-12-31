@@ -1,5 +1,5 @@
 import StarIcon from "../StarIcon/StarIcon";
-import styles from "./rating.module.css";
+import styles from "../Rating/Rating.module.scss";
 
 const getRatingArray = (rating: number) => {
   if (rating >= 5) return new Array(5).fill(1);
